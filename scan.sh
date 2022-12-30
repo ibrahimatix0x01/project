@@ -2,16 +2,12 @@
 
 echo "Enter a domain name:"
 read domain
-
+echo "[*] Launching Amass"
 # Use amass to gather subdomains
 amass enum -passive -norecursive -noalts -d $domain >> subdomains.txt
-
+echo "[*] Launching Subfinder"
 # Use subfinder to gather subdomains
 subfinder -d $domain >> subdomains.txt
-
-# Use assetfinder to gather subdomains
-assetfinder --subs-only $domain >> subdomains.txt
-
 
 # Remove duplicates
 sort subdomains.txt | uniq > subdomains_deduped.txt
