@@ -45,7 +45,7 @@ waybackurls $domain >> urls.txt
 sort -u urls.txt -o urls.txt
 
 echo "URLs for $domain have been saved to urls.txt"
-echo "[*] Launching kxss for xss scans..."
-cat urls.txt | kxss > xss.txt
+echo "[*] Launching Gxss and Dalfox for xss scans..."
+cat urls.txt | httpx -silent | Gxss -c 100 -p Xss | sort -u | dalfox pipe > xss.txt
 XSSRES=$(cat xss.txt | wc -l)
-echo -e "\n[+] kxss found ${XSSRES} potential xss"
+echo -e "\n[+] Gxss and Dalfox found ${XSSRES} potential xss"
