@@ -4,7 +4,8 @@ echo "|B|u|g| |B|o|u|n|t|y| |A|u|t|o|m|a|t|i|o|n|"
 echo "+-+-+-+ +-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+-+-+"
 
 read -p "Enter a domain name: " domain
-
+mkdir $domain
+cd $domain
 echo "[*] Launching Amass..."
 # Use amass to gather subdomains
 amass enum -passive -norecursive -noalts -d $domain >> subdomains.txt
