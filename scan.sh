@@ -31,7 +31,7 @@ echo -e "\n[+] httpx found ${LIVESUB} live subdomains"
 
 echo "[*] Launching Nuclei..."
 
-nuclei -list live-subdomains.txt -o nuclei_result.txt
+nuclei -list live-subdomains.txt -severity low, medium, high, critical -o nuclei_result.txt
 
 echo "[*] Launching gau & waybackurls to gather urls..."
 
