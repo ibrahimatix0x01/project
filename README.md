@@ -4,7 +4,7 @@
 [![](https://img.shields.io/badge/Sponsor-GitHub-green?style=plastic&logo=github)](https://github.com/sponsors/ibrahimatix0x01)&nbsp;&nbsp;
 
 
- "Automatic Web Application Vulnerability Scanner" is a simple Bash recon script that will simultaneously execute various subdomain enumeration tools, aggregate the results, and write entries to a file free of duplicates and then finally scan for low hanging bugs using projectdiscovery Nuclei, . This helps prevent discrepancies in enumeration tools, even those claiming to use similar sources. 
+ "Automatic Web Application Vulnerability Scanner" is my final year project, the Bash script that will simultaneously execute various subdomain enumeration tools, aggregate the results, and write entries to a file free of duplicates and then finally scan for low hanging bugs using projectdiscovery Nuclei, . This helps prevent discrepancies in enumeration tools, even those claiming to use similar sources. 
 
 **Tools used:**
 * [SubScraper](https://github.com/m8r0wn/subscraper)
