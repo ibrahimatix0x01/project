@@ -20,7 +20,7 @@ Written for Debian-based Linux distributions (*Kali*, *Parrot Sec* & *Ubuntu*):
 
 ```text
 git clone https://github.com/ibrahimatix0x01/project
-cd scan; chmod +x installer.sh scan.sh
+cd project; chmod +x installer.sh scan.sh
 sudo ./installer.sh
 ```
 
