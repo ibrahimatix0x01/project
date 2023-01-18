@@ -34,7 +34,47 @@ Select the recon type:
 Enter your selection: 2
 Enter a domain name: abu.edu.ng
 [*] Launching Amass...
+[*] Launching Subfinder...
 
+               __    _____           __         
+   _______  __/ /_  / __(_)___  ____/ /__  _____
+  / ___/ / / / __ \/ /_/ / __ \/ __  / _ \/ ___/
+ (__  ) /_/ / /_/ / __/ / / / / /_/ /  __/ /    
+/____/\__,_/_.___/_/ /_/_/ /_/\__,_/\___/_/ v2.5.5
+
+		projectdiscovery.io
+
+Use with caution. You are responsible for your actions
+Developers assume no liability and are not responsible for any misuse or damage.
+By using subfinder, you also agree to the terms of the APIs used.
+
+[INF] Loading provider config from '/root/.config/subfinder/provider-config.yaml'
+[INF] Enumerating subdomains for 'abu.edu.ng'
+[INF] Found 386 subdomains for 'abu.edu.ng' in 2 seconds 804 milliseconds
+[+] Amass and Subfinder found 400 subdomains
+[*] Launching httpx...
+
+    __    __  __       _  __
+   / /_  / /_/ /_____ | |/ /
+  / __ \/ __/ __/ __ \|   /
+ / / / / /_/ /_/ /_/ /   |
+/_/ /_/\__/\__/ .___/_/|_|
+             /_/              v1.2.5
+
+		projectdiscovery.io
+
+Use with caution. You are responsible for your actions.
+Developers assume no liability and are not responsible for any misuse or damage.
+https://acentdfb.abu.edu.ng
+https://abucauc.abu.edu.ng
+https://agriceconomics.abu.edu.ng
+https://artsandsocialscienceeducation.abu.edu.ng
+https://administration.abu.edu.ng
+https://agricextension.abu.edu.ng
+https://abucuhsr.abu.edu.ng
+.
+.
+.
 ```
 
 <a href="https://www.buymeacoffee.com/ibrahimatix" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
