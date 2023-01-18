@@ -26,7 +26,14 @@ sudo ./installer.sh
 
 ### Usage
 ```text
-#> ./howtofindbugs.sh example.com
+#> bash scan.sh
+Select the recon type:
+1. Organization based
+2. Domain based
+3. Subdomain based
+Enter your selection: 2
+Enter a domain name: abu.edu.ng
+[*] Launching Amass...
 
 ```
 
