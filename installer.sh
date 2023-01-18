@@ -1,5 +1,7 @@
 #!/bin/bash
 
+mkdir tools
+cd tools
 # Update package list
 apt-get update
 
