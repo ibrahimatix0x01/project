@@ -1,5 +1,7 @@
 #!/bin/bash
-
+mkdir org_based
+mkdir domain_based
+mkdir subdomain_based
 mkdir tools
 cd tools
 # Update package list
