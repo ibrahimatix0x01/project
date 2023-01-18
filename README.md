@@ -13,6 +13,7 @@
 * [Nuclei](https://github.com/projectdiscovery/nuclei)
 * [Waybackurls](https://github.com/tomnomnom/waybackurls)
 * [Gau](https://github.com/lc/gau)
+* [Notify](https://github.com/lc/gau)
 
 ### Install
 Written for Debian-based Linux distributions (*Kali*, *Parrot Sec* & *Ubuntu*):
