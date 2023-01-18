@@ -1,10 +1,10 @@
-# howtofindbugs
+# Automatic Web Application Vulnerability Scanner
 [![](https://img.shields.io/twitter/follow/ibrahimatix0x01?color=blue&label=Twitter&logo=twitter&style=plastic)](https://twitter.com/ibrahimatix0x01)&nbsp;&nbsp;
 [![](https://img.shields.io/github/followers/ibrahimatix0x01?color=gray&label=GitHub&logo=github&style=plastic)](https://github.com/ibrahimatix0x01)&nbsp;&nbsp;
 [![](https://img.shields.io/badge/Sponsor-GitHub-green?style=plastic&logo=github)](https://github.com/sponsors/ibrahimatix0x01)&nbsp;&nbsp;
 
 
-howtofindbugs is a simple Bash recon script that will simultaneously execute various subdomain enumeration tools, aggregate the results, and write entries to a file free of duplicates and then finally scan for low hanging bugs using projectdiscovery nuclei. This helps prevent discrepancies in enumeration tools, even those claiming to use similar sources. 
+ "Automatic Web Application Vulnerability Scanner" is a simple Bash recon script that will simultaneously execute various subdomain enumeration tools, aggregate the results, and write entries to a file free of duplicates and then finally scan for low hanging bugs using projectdiscovery Nuclei, . This helps prevent discrepancies in enumeration tools, even those claiming to use similar sources. 
 
 **Tools used:**
 * [SubScraper](https://github.com/m8r0wn/subscraper)
