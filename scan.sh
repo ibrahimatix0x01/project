@@ -1,4 +1,5 @@
 #!/bin/bash
+# Ibrahim Auwal
 
 while true; do
   # Display menu options to the user
